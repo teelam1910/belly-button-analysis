@@ -1,4 +1,54 @@
-# belly-button-analysis
+# Belly Button Analysis
+
+
+
+
+## Description
+This project involves creating an interactive dashboard to explore the Belly Button Biodiversity dataset. The dataset provides insights into the microbes that inhabit human navels, revealing the diversity of microbial species found in this area.
+
+## Dataset Overview
+The Belly Button Biodiversity dataset catalogs microbial species, operational taxonomic units (OTUs) found in human navels. It reveals that a few species are prevalent in over 70% of individuals, while others are rare.
+
+## Project Objective
+This project aims to visualize the Belly Button Biodiversity dataset using interactive charts. The interactive dashboard allows users to explore the distribution and diversity of microbial species across individuals' belly buttons.
+
+
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+
+- [Features](#features)
+
+- [Contact](#contact)
+- [Resources](#resources)
+
+## Installation
+- Plotly.js: A JavaScript library for creating interactive charts and visualizations.
+- D3.js: A JavaScript library for data manipulation and visualization.
+
+## Usage
+To use the dashboard, simply interact with the provided charts and dropdown menus to explore different samples and visualize the diversity of microbial species present in each individual's belly button.
+
+## Credits
+Tiffany La Mar
+
+
+
+## Features
+- Visualization of microbial species abundance using bar charts. 
+- Exploration of microbial diversity through bubble charts.
+- Additional demographic information and metadata visualization.
+- Interactive selection of individual samples for detailed analysis.
+
+
+
+## Contact
+If there are any questions of concerns, I can be reached at:
+##### [github: teelam1910](https://github.com/teelam1910)
+##### [email: tiffanylamarj@gmail.com](mailto:tiffanylamarj@gmail.com)
+
 
 ## Resources
 - BCS Tutoring<br>
