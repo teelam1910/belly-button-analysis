@@ -1,15 +1,7 @@
 // Instructions
 // Complete the following steps:
-
 // Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
 
-// Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-// Use sample_values as the values for the bar chart.
-
-// Use otu_ids as the labels for the bar chart.
-
-// Use otu_labels as the hovertext for the chart.
 
 const url = "https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json";
 
@@ -28,15 +20,12 @@ const optionChanged = async id => {
 
 
 
-
   // Demographic
   let meta = metadata.find(dict => dict.id == id);
   d3.select('#sample-metadata').html('');
   Object.entries(meta).forEach(([key,val]) => {
     d3.select('#sample-metadata').append('h6').text(`${key.toUpperCase()}: ${val}`);
   });
-
-
 
 
 
@@ -48,13 +37,11 @@ const optionChanged = async id => {
   .map((value, index) => ({ value, id: sample.otu_ids[index] }))
   .sort((a, b) => b.value - a.value);
 
-  // Take first 10 sorted sample values and corresponding OTU IDs
+  // First 10 sorted sample values and corresponding OTU IDs
   let sampleValues = sortedSampleData.slice(0, 10).map(data => data.value);
   let otuIds = sortedSampleData.slice(0, 10).map(data => `OTU ${data.id}`);
 
 // console.log(samples);
-
-
 
 
 
@@ -88,20 +75,17 @@ const optionChanged = async id => {
   
   let layout2 = {
     xaxis: { title: "OTU ID" },
-    yaxis: { title: "Sample Values" } // Update y-axis title if needed
+    yaxis: { title: "Sample Values" } 
   };
   
-  Plotly.newPlot('bubble', bubbleData, layout2);
+  Plotly.newPlot('bubble', bubbleData, layout2);  //Show bubble chart
 
   
 
 
 
-  // Gauge Chart
-
-
+  // Gauge Chart (Optional)
 };
-
 
 optionChanged();
 
