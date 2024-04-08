@@ -2,16 +2,20 @@
 
 
 
-
 ## Description
-This project involves creating an interactive dashboard to explore the Belly Button Biodiversity dataset. The dataset provides insights into the microbes that inhabit human navels, revealing the diversity of microbial species found in this area.
+This project involves creating an interactive dashboard to explore the Belly Button Biodiversity dataset. The dataset provides insights into the microbes that inhabit human navels, revealing the diversity of microbial species found in this area. This project aims to visualize the Belly Button Biodiversity dataset using interactive charts. The interactive dashboard allows users to explore the distribution and diversity of microbial species across individuals' belly buttons.
 
 ## Dataset Overview
 The Belly Button Biodiversity dataset catalogs microbial species, operational taxonomic units (OTUs) found in human navels. It reveals that a few species are prevalent in over 70% of individuals, while others are rare.
 
-## Project Objective
-This project aims to visualize the Belly Button Biodiversity dataset using interactive charts. The interactive dashboard allows users to explore the distribution and diversity of microbial species across individuals' belly buttons.
+## File Locations:
+- The HTML file, named index.html, is located within the Code folder. 
+- The JavaScript file, named app.js, is located within the Code folder, specifically within the static/js subfolder.
 
+
+
+## Dashboard
+![tl dashboard](https://github.com/teelam1910/belly-button-analysis/assets/132629216/e98ef7e8-0957-4319-ab54-a39a1a275961)
 
 
 ## Table of Contents
