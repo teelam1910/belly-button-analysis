@@ -59,21 +59,21 @@ const optionChanged = async id => {
 
 
   // Bar Chart
-  let trace1 = {
+  let barChart = {
     x: sampleValues,
     y: otuIds,   //removed otuIds.map(id => `OTU ${id}`),  was causing OTU to show twice
     type: "bar",
     orientation: "h"
   };
 
-  let data1 = [trace1];
-  Plotly.newPlot("bar", data1); //Show bar chart
+  let barData = [barChart];
+  Plotly.newPlot("bar", barData); //Show bar chart
 
 
 
 
   // Bubble Chart
-  let trace2 = {
+  let bubbleChart = {
     x: sample.otu_ids,
     y: sample.sample_values,
     mode: 'markers',
@@ -84,14 +84,14 @@ const optionChanged = async id => {
     text: sample.otu_ids.map((id, index) => `OTU ${id}: ${sample.otu_labels[index]}`) // Use OTU IDs as labels with OTU label text
   };
   
-  let data2 = [trace2];
+  let bubbleData = [bubbleChart];
   
   let layout2 = {
     xaxis: { title: "OTU ID" },
     yaxis: { title: "Sample Values" } // Update y-axis title if needed
   };
   
-  Plotly.newPlot('bubble', data2, layout2);
+  Plotly.newPlot('bubble', bubbleData, layout2);
 
   
 
