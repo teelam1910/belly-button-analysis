@@ -9,6 +9,7 @@ This project involves creating an interactive dashboard to explore the Belly But
 The Belly Button Biodiversity dataset catalogs microbial species, operational taxonomic units (OTUs) found in human navels. It reveals that a few species are prevalent in over 70% of individuals, while others are rare.
 
 ## File Locations:
+https://teelam1910.github.io/belly-button-analysis/
 - The HTML file, named index.html, is located within the Code folder. 
 - The JavaScript file, named app.js, is located within the Code folder, specifically within the static/js subfolder.
 
