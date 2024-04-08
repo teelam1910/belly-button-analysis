@@ -10,7 +10,7 @@ The Belly Button Biodiversity dataset catalogs microbial species, operational ta
 
 ## HTML:
 
-- TO run HTML file, named index.html, click the link: https://teelam1910.github.io/belly-button-analysis/
+- To run HTML file, named index.html, click the link: https://teelam1910.github.io/belly-button-analysis/
 - The JavaScript file with coding, is named app.js. 
 
 
